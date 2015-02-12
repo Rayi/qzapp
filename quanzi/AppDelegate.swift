@@ -23,6 +23,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         println(author);
         println(creatror);
+        
+        let fl:Float = 4;
+        
+        var label = "The width is";
+        let width = 60;
+        var tip = label;
+        let tip2 = "The width is \(width) engough";
+        println(tip2);
+        
         // Override point for customization after application launch.
         return true
     }
