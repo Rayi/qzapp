@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        println("Helo");
+        
+        var creatror = "rayisword@gmail.com";
+        let author = "Rayi";
+        
+        println(author);
+        println(creatror);
         // Override point for customization after application launch.
         return true
     }
